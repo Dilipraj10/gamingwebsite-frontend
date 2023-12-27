@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+    border: border-box;
+}
+
+body{
+    background-color: black;
+    background-size:cover;
+}
+
+.navbar{
+    border: 2px solid white;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: green;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-decoration: underline white;
+}
+
+.name span{
+    color: yellow;
+    font-size: 40px;
+}
+
+ 
+.dis{
+    padding-left: 20px;
+    padding-top: 110px;
+    color: pink;
+    font-size:20px;
+    font-weight: 600;
+}
+
+.gun i{
+    color: red;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 105px;
+}
+
+.title h1{
+    color: white;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+
+#chatbox-outer{
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 20px;
+    margin: 15px;
+    margin-top: 20px;
+    width: 70%;
+    height: 400px;
+}
+
+
+
+.msg{
+    display: flex;
+    border: 2px solid grey;
+    background-color: grey;
+    margin-left:2px;
+    margin-right: 4px;
+    margin-top: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#loading{
+    color: black;
+    font-size: 25px;
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    margin-top: 305px;
+    width: 145px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+#inputbox{
+    width: 85%;
+    border-radius: 10px;
+    padding-left: 2px;
+}
+
+#heart{
+    color: red;
+    padding-left: 20px;
+}
+
+#heart:hover{
+    opacity: .8;
+}
+
+#sent{
+    color: blue;
+    padding-left:20px;
+}
+
+#sent:hover{
+    opacity: .9;
+}
